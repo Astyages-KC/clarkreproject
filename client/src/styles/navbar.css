@@ -1,0 +1,44 @@
+
+.navBarStyleContainer {
+    font-size: 20px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    background-color: rgba(248, 236, 220, .55);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    box-shadow: 0 0 8px 8px rgba(207, 199, 210, .8) inset;
+}
+
+.navBarStyle {
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.linkstyle {
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: left;
+    /* align-items: left;
+    text-align: center; */
+}
+
+.agentSignIn {
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 8px;
+    display: flex;
+    justify-content: right;
+}
+
+.logButton {
+    padding-right: 20px;
+    padding-left: 5px;
+    padding-top: 8px; 
+    height: 30px;
+    width: auto;
+    
+}

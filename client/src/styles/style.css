@@ -1,0 +1,21 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Nanum Myeongjo', serif; */
+
+button {
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    padding: 5px;
+    width: auto;
+    height: auto;
+}
+

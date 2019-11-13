@@ -1,0 +1,21 @@
+
+.home-page-styles {
+    background-image: url("https://images.pexels.com/photos/1546168/pexels-photo-1546168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(248, 236, 220, .35);
+    height: 100vh;
+}
+
+.title-header {
+    text-align: center;
+    font-size: 15vh;
+}
+
+
