@@ -6,14 +6,15 @@ const mongoose = require ('mongoose');
 const expressJwt = require('express-jwt')
 const PORT = process.env.PORT || 7000;
 const path = require('path');
-`
+
 //Middleware for every request
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(express.static(path.join(__dirname, "client", "build")));
 
 //DB collection
-mongoose.connect('mongodb://localhost:27017/clarkdb',
+// mongoose.connect('mongodb://localhost:27017/clarkdb',
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/clarkdb",
 {
     useNewUrlParser: true,
     useUnifiedTopology: true,
