@@ -42,17 +42,6 @@ function App() {
           redirectTo="/"
         /> 
 
-        {/* <ProtectedRoute
-        path="/propertyform"
-        component={PropertyForm}
-        redirectTo="/"
-        /> */}
- 
-        {/* <ProtectedRoute 
-        path="/aboutus" 
-        component={AboutUs} 
-        redirectTo="/" 
-        />  */}
       </Switch>
     </div>
   );

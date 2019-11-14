@@ -41,8 +41,6 @@ propRouter.post('/', (req, res, next) => {
 
 // Put
 propRouter.put('/:_id', (req, res, next) => {
-    // console.log('da params have the id: ', req.params._id)
-    // console.log('da body has the updated property: ', req.body)
     Property.findByIdAndUpdate(req.params._id, req.body, (err, property) => {
         if(err) {
             res.status(500)
