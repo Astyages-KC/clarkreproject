@@ -18,7 +18,9 @@ function Auth() {
       [name]: value
     }));
   };
+
   //handleSubmits for signup and login
+
   // const handleSignupSubmit = e => {
   //   e.preventDefault();
   //   signup(inputs);

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"clarkdb.properties"}],"uuid":"13cd6297591e42cb99b0a282f7476f85"}

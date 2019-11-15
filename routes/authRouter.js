@@ -14,11 +14,12 @@ authRouter.post("/signup", (req, res, next) => {
       res.status(400);
       return next(new Error("That username already taken"));
     }
-
+    
     // if(req.body.secretkey === !process.env.SECRETKEY){
     //   res.status(400)
     //   return next(new Error("Must provide key to signup"))
     // }
+
     const newUser = new User(req.body);
     //save user in DB
     newUser.save((err, savedUser) => {

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"bountydb.bounties"}],"uuid":"bec304b4ecbe430a8522d93882a03d91"}
