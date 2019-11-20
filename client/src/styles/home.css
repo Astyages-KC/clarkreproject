@@ -19,6 +19,13 @@
 }
 
 .home-carousel {
-    margin: 30px;
+    
+    height: 200px;
+    width: 400px;
+    
 }
 
+.spacer-stuff {
+    margin: 50px;
+    padding: 50px;
+}
