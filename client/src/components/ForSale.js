@@ -34,7 +34,7 @@ function ForSale() {
   return (
   <div>  
   <h1 className="rent-sale-titles">Properties for Sale</h1>  
-  {mappedposts}
+  <p className="display-prop-box">{mappedposts}</p>
   </div>
   )
 }

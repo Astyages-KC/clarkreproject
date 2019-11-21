@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .overlay {
@@ -16,13 +17,23 @@
 .title-header {
     text-align: center;
     font-size: 15vh;
+    padding-bottom:50px;
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .home-carousel {
-    
-    height: 200px;
-    width: 400px;
-    
+    background-color: rgb(195, 191, 207);
+    height: 400px;
+    width: 500px;
+    font-family: 'Source Serif Pro', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .spacer-stuff {

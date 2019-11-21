@@ -34,28 +34,9 @@ function ForRent() {
     </div>
   ));
   return (
-    <div>
+    <div classname="rent-sale-background">
       <h1 className="rent-sale-titles">Properties for Rent</h1>
-      {mappedposts}
-      <br />
-      <br />
-      <Carousel
-        autoPlay
-        interval={3000}
-        showThumbs={false}
-        infiniteLoop={true}
-        className="home-carousel"
-      >
-        {mappedposts}
-      </Carousel>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <p className="display-prop-box">{mappedposts}</p>
       <br />
       <br />
       <br />
