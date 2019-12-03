@@ -28,12 +28,12 @@
 .home-carousel {
     background-color: rgb(195, 191, 207);
     height: 400px;
-    width: 500px;
+    width: 30%;
     font-family: 'Source Serif Pro', serif;
+    position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
-    align-content: center;
+    left: 33%;
 }
 
 .spacer-stuff {
