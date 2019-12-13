@@ -9,13 +9,15 @@ function Navbar(props){
             <Link to='/forrent' className='navBarStyle'>For Rent</Link>
             <Link to='/forsale' className='navBarStyle'>For Sale</Link>
             <Link to='/aboutus' className='navBarStyle'>About Us</Link>
+            <a href="https://drive.google.com/file/d/1FaGfytBqS0UvgrjdmDJUUQLXIVdF62U0/view">Rental Application</a>
             {props.token && <Link to='/agentpage' className='navBarStyle'>Property List</Link>}
             </div>
             <div className='nav-bar-container' >
             <Link to='/auth' className='navBarStyle'>Agent Sign In</Link>
-            
             {props.token && <button onClick={props.logout} >Logout</button>}
+            
             </div>
+            
         </div>
     )
 }
