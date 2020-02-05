@@ -4,7 +4,6 @@ import axios from "axios";
 import { Carousel } from "react-responsive-carousel";
 import styles from "react-responsive-carousel/lib/styles/carousel.min.css";
 
-
 function Home() {
   const [posts, setPosts] = useState([]);
 
@@ -16,7 +15,6 @@ function Home() {
       })
       .catch(err => console.log(err.data));
   }, []);
-
 
   const mappedposts = posts.map((post, index) => (
     <div key={index} className="propertyBox">
@@ -36,24 +34,21 @@ function Home() {
     </div>
   ));
   return (
-  <div className="home-page-styles">
-    <div className="overlay">
-      <h1 className="title-header" >Clark Real Estate</h1>
-      <Carousel
-        autoPlay
-        interval={3000}
-        showThumbs={false}
-        infiniteLoop={true}
-        className="home-carousel"
-        
-      >
-        {mappedposts}
-      </Carousel>
-      
+    <div className="home-page-styles">
+      <div className="overlay">
+        <h1 className="title-header">Clark Real Estate</h1>
+        <Carousel
+          autoPlay
+          interval={3000}
+          showThumbs={false}
+          infiniteLoop={true}
+          className="home-carousel"
+        >
+          {mappedposts}
+        </Carousel>
       </div>
-      
-  </div>
-  )
-};
+    </div>
+  );
+}
 
 export default Home;
